@@ -1,14 +1,16 @@
-Advanced Slot Booking Demo
+Company-Level Slot Booking Demo
 
-Pages:
-login.html
-dashboard.html
+Features
+- Login system
+- User dashboard
+- Slot booking
+- Admin panel
+- Reset slot management
 
-Flow:
-1. User logs in with name
-2. Redirects to dashboard
-3. User books slots
-4. Dashboard shows who booked the slot
+Pages
+index.html (login)
+dashboard.html (user)
+admin.html (admin)
 
-Deploy:
-Upload all files to GitHub and Netlify.
+Deploy
+Upload files to GitHub and connect to Netlify.

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+<h2>Admin Panel</h2>
+<button onclick="logout()">Logout</button>
+</div>
+
+<div class="container">
+
+<h3>Slot Management</h3>
+
+<button onclick="resetSlots()">Reset All Slots</button>
+
+<table>
+<tr>
+<th>Slot Time</th>
+<th>Status</th>
+<th>User</th>
+</tr>
+
+<tr>
+<td>10:00 AM</td>
+<td id="as1">Available</td>
+<td id="au1">-</td>
+</tr>
+
+<tr>
+<td>11:00 AM</td>
+<td id="as2">Available</td>
+<td id="au2">-</td>
+</tr>
+
+<tr>
+<td>12:00 PM</td>
+<td id="as3">Available</td>
+<td id="au3">-</td>
+</tr>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

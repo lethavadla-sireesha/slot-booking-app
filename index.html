@@ -1,58 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Slot Booking</title>
+<title>Company Slot Booking - Login</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="container">
+<div class="card">
+<h2>Company Slot Booking System</h2>
+<p class="subtitle">Login to continue</p>
 
-<h1>Slot Booking Web Application</h1>
-<p class="subtitle">Book your preferred time slot</p>
+<input type="text" id="username" placeholder="Enter your name">
+<br><br>
+<select id="role">
+<option value="user">User</option>
+<option value="admin">Admin</option>
+</select>
 
-<div class="form-box">
-<input type="text" id="name" placeholder="Enter your name">
-<button onclick="saveName()">Save Name</button>
-</div>
-
-<table>
-<thead>
-<tr>
-<th>Slot Time</th>
-<th>Status</th>
-<th>Booked By</th>
-<th>Action</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>10:00 AM</td>
-<td id="s1">Available</td>
-<td id="u1">-</td>
-<td><button onclick="bookSlot('s1','u1')">Book</button></td>
-</tr>
-
-<tr>
-<td>11:00 AM</td>
-<td id="s2">Available</td>
-<td id="u2">-</td>
-<td><button onclick="bookSlot('s2','u2')">Book</button></td>
-</tr>
-
-<tr>
-<td>12:00 PM</td>
-<td id="s3">Available</td>
-<td id="u3">-</td>
-<td><button onclick="bookSlot('s3','u3')">Book</button></td>
-</tr>
-</tbody>
-
-</table>
+<br><br>
+<button onclick="login()">Login</button>
 
 </div>
 
