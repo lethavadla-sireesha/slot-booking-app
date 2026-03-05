@@ -1,13 +1,16 @@
-Slot Booking Web Application
+Professional Slot Booking Web Application
 
-Files:
-- index.html
-- style.css
-- script.js
+Features
+• Modern UI
+• User name booking
+• Slot status update
+• Shows who booked the slot
 
-How to run:
-1. Extract the zip file
-2. Open index.html in your browser
-3. Click 'Book' to simulate booking a slot
+Run locally:
+1. Extract zip
+2. Open index.html
 
-You can upload these files to GitHub and deploy on Netlify.
+Deploy:
+1. Upload files to GitHub
+2. Connect GitHub to Netlify
+3. Deploy
