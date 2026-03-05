@@ -1,37 +1,36 @@
-let username = ""
-
-function saveName(){
-username = document.getElementById("name").value
-localStorage.setItem("username",username)
-alert("Name saved successfully")
-}
-
-window.onload = function(){
-username = localStorage.getItem("username")
-}
-
-function bookSlot(slot,user){
-
-if(!username){
-alert("Please enter your name first")
+function login(){
+let user=document.getElementById("username").value
+if(!user){
+alert("Enter your name")
 return
 }
+localStorage.setItem("user",user)
+window.location="dashboard.html"
+}
 
-let slotStatus = document.getElementById(slot)
+window.onload=function(){
+let user=localStorage.getItem("user")
+if(document.getElementById("welcome")){
+document.getElementById("welcome").innerHTML="Welcome "+user
+}
+}
 
-if(slotStatus.innerHTML === "Available"){
+function bookSlot(slot,userCell){
 
-slotStatus.innerHTML = "Booked"
-slotStatus.classList.add("booked")
+let user=localStorage.getItem("user")
+let status=document.getElementById(slot)
 
-document.getElementById(user).innerHTML = username
-
+if(status.innerHTML==="Available"){
+status.innerHTML="Booked"
+document.getElementById(userCell).innerHTML=user
 alert("Slot booked successfully")
-
 }else{
-
 alert("Slot already booked")
+}
 
 }
 
+function logout(){
+localStorage.removeItem("user")
+window.location="login.html"
 }

@@ -1,16 +1,14 @@
-Professional Slot Booking Web Application
+Advanced Slot Booking Demo
 
-Features
-• Modern UI
-• User name booking
-• Slot status update
-• Shows who booked the slot
+Pages:
+login.html
+dashboard.html
 
-Run locally:
-1. Extract zip
-2. Open index.html
+Flow:
+1. User logs in with name
+2. Redirects to dashboard
+3. User books slots
+4. Dashboard shows who booked the slot
 
 Deploy:
-1. Upload files to GitHub
-2. Connect GitHub to Netlify
-3. Deploy
+Upload all files to GitHub and Netlify.

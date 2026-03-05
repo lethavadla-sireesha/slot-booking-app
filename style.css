@@ -1,46 +1,33 @@
 body{
-font-family: Arial, sans-serif;
-background: linear-gradient(120deg,#007bff,#00c6ff);
+font-family:Arial;
+background:linear-gradient(120deg,#4facfe,#00f2fe);
 margin:0;
 }
 
 .container{
-width:80%;
+width:400px;
 margin:auto;
-margin-top:60px;
+margin-top:80px;
 background:white;
 padding:30px;
-border-radius:10px;
-box-shadow:0 10px 30px rgba(0,0,0,0.2);
+border-radius:8px;
 text-align:center;
-}
-
-h1{
-margin-bottom:5px;
-}
-
-.subtitle{
-color:#666;
-margin-bottom:30px;
-}
-
-.form-box{
-margin-bottom:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 input{
 padding:10px;
-width:200px;
+width:80%;
 border:1px solid #ccc;
-border-radius:5px;
+border-radius:4px;
 }
 
 button{
-padding:10px 16px;
+padding:10px 15px;
 background:#28a745;
 border:none;
 color:white;
-border-radius:5px;
+border-radius:4px;
 cursor:pointer;
 }
 
@@ -57,15 +44,10 @@ margin-top:20px;
 th{
 background:#007bff;
 color:white;
-padding:12px;
+padding:10px;
 }
 
 td{
-padding:12px;
+padding:10px;
 border-bottom:1px solid #ddd;
-}
-
-.booked{
-color:red;
-font-weight:bold;
 }

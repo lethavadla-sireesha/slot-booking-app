@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard - Slot Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Slot Booking Dashboard</h1>
+<p id="welcome"></p>
+
+<table>
+<tr>
+<th>Slot Time</th>
+<th>Status</th>
+<th>Booked By</th>
+<th>Action</th>
+</tr>
+
+<tr>
+<td>10:00 AM</td>
+<td id="s1">Available</td>
+<td id="u1">-</td>
+<td><button onclick="bookSlot('s1','u1')">Book</button></td>
+</tr>
+
+<tr>
+<td>11:00 AM</td>
+<td id="s2">Available</td>
+<td id="u2">-</td>
+<td><button onclick="bookSlot('s2','u2')">Book</button></td>
+</tr>
+
+<tr>
+<td>12:00 PM</td>
+<td id="s3">Available</td>
+<td id="u3">-</td>
+<td><button onclick="bookSlot('s3','u3')">Book</button></td>
+</tr>
+
+</table>
+
+<br>
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
